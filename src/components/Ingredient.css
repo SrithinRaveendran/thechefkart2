@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.ingredient-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: solid 1px lightgrey;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    /* overflow-y: auto ;    */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.ingredient-heading-container{
+    display: flex;
+    
+    align-items: center;
+    height: auto;
+    width: 100% ;
+    box-shadow: 2px 2px 6px rgba(64, 63, 63, 0.25);
+    padding: 10px 0;
+    
+}
+
+.ingredient-heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.ingredient-arrow-btn{
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+}
+
+.list-container{
+    display: flex;
+    justify-content: flex-start;
+    border: solid 1px lightgrey;
+    width: 100%;
+    height: auto;
+    padding: 0px 10px;
+    margin: 0px;
+    
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.ul-element{
+    display: flex;
+    flex-direction: column;
+
+    border-bottom: solid 1px lightgrey;
+    height: auto;
+    width: 70% ;
+    padding: 10px 0;  
+    list-style-type: disc;
+}
+
+.image-conatiner{
+    width: 30%;
+    height: 140px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.ingredient-list-item{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.ingredient-image {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
